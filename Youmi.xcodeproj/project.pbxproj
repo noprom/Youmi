@@ -14,6 +14,18 @@
 		80E3D5CD1B5E3F1B0083780C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80E3D5CC1B5E3F1B0083780C /* Images.xcassets */; };
 		80E3D5D01B5E3F1B0083780C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80E3D5CE1B5E3F1B0083780C /* LaunchScreen.xib */; };
 		80E3D5DC1B5E3F1B0083780C /* YoumiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E3D5DB1B5E3F1B0083780C /* YoumiTests.m */; };
+		80E3D5F31B5E45F40083780C /* btn_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 80E3D5EA1B5E45F40083780C /* btn_close.png */; };
+		80E3D5F41B5E45F40083780C /* btn_home.png in Resources */ = {isa = PBXBuildFile; fileRef = 80E3D5EB1B5E45F40083780C /* btn_home.png */; };
+		80E3D5F51B5E45F40083780C /* GitHubProjectStatic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E3D5EC1B5E45F40083780C /* GitHubProjectStatic.a */; };
+		80E3D5F71B5E4E230083780C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E3D5F61B5E4E230083780C /* Security.framework */; };
+		80E3D5F91B5E4E2D0083780C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E3D5F81B5E4E2D0083780C /* SystemConfiguration.framework */; };
+		80E3D5FB1B5E4E810083780C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E3D5FA1B5E4E810083780C /* CFNetwork.framework */; };
+		80E3D5FD1B5E4E890083780C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E3D5FC1B5E4E890083780C /* QuartzCore.framework */; };
+		80E3D5FF1B5E4E980083780C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E3D5FE1B5E4E980083780C /* libsqlite3.dylib */; };
+		80E3D6011B5E4EA50083780C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E3D6001B5E4EA50083780C /* StoreKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		80E3D6031B5E4EB80083780C /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E3D6021B5E4EB80083780C /* libz.dylib */; };
+		80E3D6051B5E4EC10083780C /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E3D6041B5E4EC10083780C /* CoreMotion.framework */; };
+		80E3D6071B5E4ECC0083780C /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E3D6061B5E4ECC0083780C /* libicucore.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +52,23 @@
 		80E3D5D51B5E3F1B0083780C /* YoumiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoumiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E3D5DA1B5E3F1B0083780C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80E3D5DB1B5E3F1B0083780C /* YoumiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoumiTests.m; sourceTree = "<group>"; };
+		80E3D5EA1B5E45F40083780C /* btn_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_close.png; sourceTree = "<group>"; };
+		80E3D5EB1B5E45F40083780C /* btn_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_home.png; sourceTree = "<group>"; };
+		80E3D5EC1B5E45F40083780C /* GitHubProjectStatic.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = GitHubProjectStatic.a; sourceTree = "<group>"; };
+		80E3D5EE1B5E45F40083780C /* PublicCallConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicCallConfig.h; sourceTree = "<group>"; };
+		80E3D5EF1B5E45F40083780C /* PublicCallList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicCallList.h; sourceTree = "<group>"; };
+		80E3D5F01B5E45F40083780C /* PublicCallListAppModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicCallListAppModel.h; sourceTree = "<group>"; };
+		80E3D5F11B5E45F40083780C /* PublicCallPointsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicCallPointsManager.h; sourceTree = "<group>"; };
+		80E3D5F21B5E45F40083780C /* publicHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = publicHeader.h; sourceTree = "<group>"; };
+		80E3D5F61B5E4E230083780C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		80E3D5F81B5E4E2D0083780C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		80E3D5FA1B5E4E810083780C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		80E3D5FC1B5E4E890083780C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		80E3D5FE1B5E4E980083780C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		80E3D6001B5E4EA50083780C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		80E3D6021B5E4EB80083780C /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		80E3D6041B5E4EC10083780C /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		80E3D6061B5E4ECC0083780C /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +76,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80E3D6071B5E4ECC0083780C /* libicucore.dylib in Frameworks */,
+				80E3D6051B5E4EC10083780C /* CoreMotion.framework in Frameworks */,
+				80E3D6031B5E4EB80083780C /* libz.dylib in Frameworks */,
+				80E3D6011B5E4EA50083780C /* StoreKit.framework in Frameworks */,
+				80E3D5FF1B5E4E980083780C /* libsqlite3.dylib in Frameworks */,
+				80E3D5FD1B5E4E890083780C /* QuartzCore.framework in Frameworks */,
+				80E3D5FB1B5E4E810083780C /* CFNetwork.framework in Frameworks */,
+				80E3D5F91B5E4E2D0083780C /* SystemConfiguration.framework in Frameworks */,
+				80E3D5F71B5E4E230083780C /* Security.framework in Frameworks */,
+				80E3D5F51B5E45F40083780C /* GitHubProjectStatic.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +102,15 @@
 		80E3D5B31B5E3F1B0083780C = {
 			isa = PBXGroup;
 			children = (
+				80E3D6061B5E4ECC0083780C /* libicucore.dylib */,
+				80E3D6041B5E4EC10083780C /* CoreMotion.framework */,
+				80E3D6021B5E4EB80083780C /* libz.dylib */,
+				80E3D6001B5E4EA50083780C /* StoreKit.framework */,
+				80E3D5FE1B5E4E980083780C /* libsqlite3.dylib */,
+				80E3D5FC1B5E4E890083780C /* QuartzCore.framework */,
+				80E3D5FA1B5E4E810083780C /* CFNetwork.framework */,
+				80E3D5F81B5E4E2D0083780C /* SystemConfiguration.framework */,
+				80E3D5F61B5E4E230083780C /* Security.framework */,
 				80E3D5BE1B5E3F1B0083780C /* Youmi */,
 				80E3D5D81B5E3F1B0083780C /* YoumiTests */,
 				80E3D5BD1B5E3F1B0083780C /* Products */,
@@ -81,6 +129,7 @@
 		80E3D5BE1B5E3F1B0083780C /* Youmi */ = {
 			isa = PBXGroup;
 			children = (
+				80E3D5E91B5E45F40083780C /* lib */,
 				80E3D5C31B5E3F1B0083780C /* AppDelegate.h */,
 				80E3D5C41B5E3F1B0083780C /* AppDelegate.m */,
 				80E3D5C61B5E3F1B0083780C /* ViewController.h */,
@@ -117,6 +166,29 @@
 				80E3D5DA1B5E3F1B0083780C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80E3D5E91B5E45F40083780C /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				80E3D5EA1B5E45F40083780C /* btn_close.png */,
+				80E3D5EB1B5E45F40083780C /* btn_home.png */,
+				80E3D5EC1B5E45F40083780C /* GitHubProjectStatic.a */,
+				80E3D5ED1B5E45F40083780C /* include */,
+				80E3D5F21B5E45F40083780C /* publicHeader.h */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		80E3D5ED1B5E45F40083780C /* include */ = {
+			isa = PBXGroup;
+			children = (
+				80E3D5EE1B5E45F40083780C /* PublicCallConfig.h */,
+				80E3D5EF1B5E45F40083780C /* PublicCallList.h */,
+				80E3D5F01B5E45F40083780C /* PublicCallListAppModel.h */,
+				80E3D5F11B5E45F40083780C /* PublicCallPointsManager.h */,
+			);
+			path = include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				80E3D5CB1B5E3F1B0083780C /* Main.storyboard in Resources */,
+				80E3D5F31B5E45F40083780C /* btn_close.png in Resources */,
+				80E3D5F41B5E45F40083780C /* btn_home.png in Resources */,
 				80E3D5D01B5E3F1B0083780C /* LaunchScreen.xib in Resources */,
 				80E3D5CD1B5E3F1B0083780C /* Images.xcassets in Resources */,
 			);
@@ -349,6 +423,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Youmi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Youmi/lib",
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -359,6 +438,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Youmi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Youmi/lib",
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
